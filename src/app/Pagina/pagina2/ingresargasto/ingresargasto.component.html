@@ -1,4 +1,4 @@
-<h4 class="text-center">Ingresar Gasto</h4>
+<h4 class="text-center">Ingresar ingredientes que necesitamos</h4>
 <hr>
 <div *ngIf="formularioIncorrecto" class="text-center">
     <span class="badge bg-danger textError">{{ textIncorrecto | uppercase }}</span>
@@ -6,7 +6,7 @@
 <div class="form-group mb-4">
     <label for="gasto">Gasto</label>
     <input type="text" id="gasto" [(ngModel)]="nombreGasto"
-            class="form-control form-control-lg" placeholder="Ej: Comida..">
+            class="form-control form-control-lg" placeholder="Ej: Ingrediente..">
 </div>
 <div class="form-group mb-4">
     <label for="cantidad">Cantidad</label>
