@@ -1,0 +1,10 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 150px 20px;
+}
+.container .products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap:1rem;
+}
