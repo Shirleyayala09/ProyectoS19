@@ -1,9 +1,9 @@
 <h1 class="text-center fontTitle mt-3">Productos</h1>
 <div class="container text-center col-lg-6 offset-lg-3">
 <div *ngFor="let cafe of cafes " class="mx-auto mt-3 p-3 border border-info text-center text-light ">
+    <h2>{{cafe.nombre}}</h2>
     <img [src]="cafe.img" alt="" style="width: 100%;">
-    <p>Nombre: "{{cafe.nombre}}"</p>
-    <p>Precio: $. {{cafe.precio}}</p>
+    <h3>Precio: ${{cafe.precio}}</h3>
     <p>Ingredientes: {{cafe.ingredientes}}</p>
 </div>
 </div>

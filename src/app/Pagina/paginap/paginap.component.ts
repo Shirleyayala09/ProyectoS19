@@ -30,4 +30,5 @@ export class PaginapComponent implements OnInit{
       this.cantidadIncorrecta = true;
     }
   }
+  
 }
